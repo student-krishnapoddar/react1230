@@ -5,6 +5,7 @@ import Mycontact from "./Mycontact";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./style.css";
+import UUU from './Mytspage.ts';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,6 @@ root.render(
     {/* <Xys></Xys> */}
     <Abc></Abc>
     <About2></About2>
-    <Mycontact />
+    <Mycontact/>
   </React.StrictMode>
 );
